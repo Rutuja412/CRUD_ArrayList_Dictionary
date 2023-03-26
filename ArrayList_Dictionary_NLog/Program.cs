@@ -7,6 +7,8 @@ namespace ArrayList_Dictionary_NLog
         static void Main(string[] args)
         {
             Console.WriteLine("WelCome to Arraylist ,Dictionary Demo");
+            ArraylistDemo demo = new ArraylistDemo();
+            demo.ShowArrayListDemo();
         }
     }
 }

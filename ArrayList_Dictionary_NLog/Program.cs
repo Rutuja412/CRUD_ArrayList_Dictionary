@@ -8,7 +8,9 @@ namespace ArrayList_Dictionary_NLog
         {
             Console.WriteLine("WelCome to Arraylist ,Dictionary Demo");
             ArraylistDemo demo = new ArraylistDemo();
-            demo.ShowArrayListDemo();
+            //demo.ShowArrayListDemo();
+            DictionaryDemo demo1 = new DictionaryDemo();
+            demo1.ShowDictDemo();
         }
     }
 }
